@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA9030C616F16526001AA249 /* GameLibrary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA9030C416F16526001AA249 /* GameLibrary.xcdatamodeld */; };
 		EAFC646C16F13848001BBC1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC646B16F13848001BBC1E /* UIKit.framework */; };
 		EAFC646E16F13848001BBC1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC646D16F13848001BBC1E /* Foundation.framework */; };
 		EAFC647016F13848001BBC1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFC646F16F13848001BBC1E /* CoreGraphics.framework */; };
@@ -71,6 +72,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA9030C516F16526001AA249 /* GameLibrary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GameLibrary.xcdatamodel; sourceTree = "<group>"; };
 		EAFC646816F13848001BBC1E /* Backlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Backlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFC646B16F13848001BBC1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EAFC646D16F13848001BBC1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -185,6 +187,7 @@
 				EAFC647D16F13848001BBC1E /* Default.png */,
 				EAFC647F16F13848001BBC1E /* Default@2x.png */,
 				EAFC648116F13848001BBC1E /* Default-568h@2x.png */,
+				EA9030C416F16526001AA249 /* GameLibrary.xcdatamodeld */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				EAFC647C16F13848001BBC1E /* BLAppDelegate.m in Sources */,
 				EAFC648516F13848001BBC1E /* BLFirstViewController.m in Sources */,
 				EAFC648C16F13848001BBC1E /* BLSecondViewController.m in Sources */,
+				EA9030C616F16526001AA249 /* GameLibrary.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,8 +466,22 @@
 				EAFC649B16F13848001BBC1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EA9030C416F16526001AA249 /* GameLibrary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EA9030C516F16526001AA249 /* GameLibrary.xcdatamodel */,
+			);
+			currentVersion = EA9030C516F16526001AA249 /* GameLibrary.xcdatamodel */;
+			path = GameLibrary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EAFC646016F13848001BBC1E /* Project object */;
 }
